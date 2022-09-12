@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  margin: 0;
+  width: auto;
+  height: 500px;
+  background-size: cover;
+}
+
+.headerFoto {
+  width: 100%;
+  min-width: 790px;
+  height: 500px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+#logoInNavbar {
+  display: inline;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+#logoInNavbar:hover {
+  transform: scale(1.1);
+}
+.logoNav {
+  display: inline;
+}
+
+nav {
+  background-color: black;
+  top: 0;
+  width: 100%;
+  min-width: 790px;
+  height: 70px;
+  display: block;
+}
+
+.innnerNav {
+  text-align: center;
+}
+
+nav ul {
+  float: right;
+  height: 100%;
+  display: inline;
+  margin-top: 24px;
+  margin-right: 75px;
+  padding-right: 40px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: 1000px;
+}
+
+nav a {
+  color: white;
+  margin-right: 50px;
+}
+
+.listInNav:hover {
+  background-color: white;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.dropDown {
+  overflow: hidden;
+  display: inline;
+}
+
+.dropDown .packetDrop {
+  background-color: black;
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.packetDrop:hover {
+  background-color: white;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.packetContent a:hover {
+  background-color: black;
+  color: white;
+}
+
+.packetContent {
+  padding-left: 224px;
+  padding-top: 30px;
+  min-width: 150px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.packetContent a {
+  background-color: white;
+  color: black;
+  display: block;
+  float: none;
+  text-decoration: none;
+  padding: 16px;
+  text-align: center;
+}
+
+.show {
+  display: block;
+}
+
+main p {
+  text-align: center;
+}
+
+footer {
+  padding: 12px;
+  margin: 0;
+  margin-bottom: 0;
+  min-width: 790px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-weight: 100;
+}
